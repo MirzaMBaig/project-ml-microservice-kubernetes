@@ -1,7 +1,5 @@
 [![MirzaMBaig>](https://circleci.com/gh/MirzaMBaig/project-ml-microservice-kubernetes.svg?style=svg)](https://github.com/MirzaMBaig/project-ml-microservice-kubernetes)
 
-
-
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
