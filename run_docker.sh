@@ -3,10 +3,10 @@
 ## Complete the following steps to get Docker running locally
 
 # Step 1:
-# Build image and add a descriptive tag
+docker build -t udacity_sklearn_test .
 
 # Step 2: 
-# List docker images
+docker images sklearn
 
 # Step 3: 
-# Run flask app
+docker run --rm -p 8000:80 udacity_sklearn_test

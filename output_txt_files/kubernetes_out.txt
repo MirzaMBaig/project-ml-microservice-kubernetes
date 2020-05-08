@@ -1,1 +1,12 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(udacity_docker) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh                  
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/sklearn-app created
+NAME          READY   UP-TO-DATE   AVAILABLE   AGE
+sklearn-app   0/1     1            0           0s
+NAME                           READY   STATUS              RESTARTS   AGE
+sklearn-app                    0/1     ImagePullBackOff    0          36m
+sklearn-app-84cf57bc75-s4n6p   0/1     ContainerCreating   0          0s
+sklearn-app-84cf57bc75-s4n6p   1/1     Running             0          3s
+^CForwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000

@@ -4,15 +4,16 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+dockerpath=m3019/udacity_sklearn_test:latest
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-
+kubectl run --image=m3019/udacity_sklearn_test:latest sklearn-app --port=80
 
 # Step 3:
-# List kubernetes pods
+kubectl get deploy
+kubectl get po
 
 # Step 4:
-# Forward the container port to a host
+kubectl port-forward deployment/sklearn-app 8000:80
 

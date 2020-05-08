@@ -4,12 +4,11 @@
 # Assumes that an image is built via `run_docker.sh`
 
 # Step 1:
-# Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=m3019/udacity_sklearn_test:latest
 
-# Step 2:  
-# Authenticate & tag
+# Step 2:
+docker tag 6a4f524ddc2c m3019/sklearn:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+docker push m3019/udacity_sklearn_test:latest

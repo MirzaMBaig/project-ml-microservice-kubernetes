@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![sklearnApp](https://circleci.com/gh/MirzaMBaig/project-ml-microservice-kubernetes.svg?style=svg)]
+
 
 ## Project Overview
 
