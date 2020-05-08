@@ -28,7 +28,8 @@ jobs:
             chmod +x /bin/hadolint
       - save_cache:
           paths:
-            - ./venv
+            - venv
+            - /usr/local/lib/python3.7.3/site-packages
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       # run lint!
@@ -36,4 +37,4 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
-            make lint 
+            make lint
